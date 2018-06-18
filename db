@@ -1,0 +1,11 @@
+CREATE TABLE student
+(
+	id int NOT NULL AUTO_INCREMENT,
+    userName varchar(30),
+    password varchar(30),
+    firstName varchar(30),
+    lastName varchar(30),
+    dateOfBirth date,
+    emailAddress varchar(30),
+    PRIMARY KEY (id)
+);
